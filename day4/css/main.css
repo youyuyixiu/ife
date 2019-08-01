@@ -1,0 +1,130 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    font-family: "Microsoft YaHei",sans-serif;
+    font-weight: 400;
+    font-size: 1.1em;
+    color: #eef3f0;
+    background-color: #22C3AA;
+    text-align: center;
+}
+
+.index {
+    padding: 40px;
+}
+
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.lang {
+    display: inline-block;
+    text-decoration: none;
+    color: #096254;
+    font-size: 0.8em;
+    transition: 0.5s;
+}
+
+.lang.selected {
+    background-color: #aee2d9;
+    padding: 2px 8px;
+    border-radius: 5px;
+}
+
+.links {
+    text-decoration: none;
+    color: #eef3f0;
+}
+
+.links:hover {
+    color: #99ff33;
+}
+
+#avatar {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #aee2d9;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: 900;
+}
+
+p {
+    color: #eef3f0;
+}
+
+
+hr {
+    color: #aee2d9;
+    width: 50%;
+}
+
+div.education a {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 18px;
+    border-radius: 50%;
+    background-color: #138574;
+}
+
+div.education h2 {
+    margin:0;
+    font-size: 1.1em;
+}
+
+.table {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.table tr:hover {
+    background-color: #138574;
+    transition: 0.1s;
+}
+
+.table td {
+    font-size: 0.8em;
+}
+
+.tags{
+    display: inline-block;
+    background-color: #096254;
+    color: #aee2d9;
+    border-radius: 3px;
+    padding: 2px 8px;
+    opacity: 0.5;
+}
+
+.expert {
+    opacity: 1;
+}
+
+.familiar {
+    opacity: 0.75;
+}
+
+.more {
+    display: inline-block;
+    background-color: #096254;
+    color: #aee2d9;
+    border-radius: 3px;
+    padding: 2px 8px;
+    opacity: 0.75;
+}
+
+.more:hover {
+    opacity: 1;
+}
+
+.learn_more>.more {
+    /* text-align: center; */
+    font-size: 20px;
+}
