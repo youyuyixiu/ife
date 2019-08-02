@@ -69,6 +69,7 @@ div.education a {
     display: inline-block;
     width: 100px;
     height: 100px;
+    margin-top: 20px;
     padding: 18px;
     border-radius: 50%;
     background-color: #138574;
@@ -78,6 +79,7 @@ div.education h2 {
     margin:0;
     font-size: 1.1em;
 }
+
 
 .table {
     width: 50%;
@@ -94,37 +96,87 @@ div.education h2 {
     font-size: 0.8em;
 }
 
+div.professions a {
+    display: block;
+    margin:0 auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 50%;
+    background-color: #138574;
+}
+
+div.professions h2 {
+    margin:0;
+    font-size: 1.1em;
+}
+
 .tags{
     display: inline-block;
-    background-color: #096254;
+    background-color: #138574;
     color: #aee2d9;
     border-radius: 3px;
+    margin-top: 10px;
     padding: 2px 8px;
     opacity: 0.5;
 }
 
-.expert {
-    opacity: 1;
-}
-
-.familiar {
-    opacity: 0.75;
-}
-
-.more {
-    display: inline-block;
+.tags:hover {
     background-color: #096254;
-    color: #aee2d9;
-    border-radius: 3px;
-    padding: 2px 8px;
-    opacity: 0.75;
+    color: #99ff33;
 }
 
-.more:hover {
-    opacity: 1;
+div.internship>a {
+    display: block;
+    margin:0 auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 50%;
+    background-color: #138574;
+}
+
+div.internship h2 {
+    margin:0;
+    font-size: 1.1em;
+}
+
+div.current_position>a {
+    display: block;
+    margin:0 auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 50%;
+    background-color: #138574;
+}
+
+div.current_position h2 {
+    margin:0;
+    font-size: 1.1em;
+}
+
+div.learn_more>a {
+    display: block;
+    margin:0 auto;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 18px;
+    border-radius: 50%;
+    background-color: #138574;
+}
+
+div.learn_more h2 {
+    margin:0;
+    font-size: 1.1em;
 }
 
 .learn_more>.more {
-    /* text-align: center; */
+    display: inline;
     font-size: 20px;
-}
+} 
