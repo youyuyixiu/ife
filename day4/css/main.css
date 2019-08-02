@@ -180,3 +180,20 @@ div.learn_more h2 {
     display: inline;
     font-size: 20px;
 } 
+
+.highlight {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 28px;
+    color: #99ff33;
+}
+
+.highlight:hover {
+    color: #138574;
+}
+
+.social img {
+    margin: 20px 5px;
+    width: 40px;
+    height: 40px;
+}
