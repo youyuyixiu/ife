@@ -3,3 +3,29 @@ html {
     font-weight: 500;
     font-size: 1.1em;
 }
+
+#cv {
+    float: left;
+    width: 100px;
+    height: 750px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #65A5FA;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+div.title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+span.subject {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
